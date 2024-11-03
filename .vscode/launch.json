@@ -1,0 +1,15 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "classPaths": [
+                "libs/okhttp-4.9.1.jar",
+                "libs/gson-2.8.8.jar"
+            ]
+        }
+    ]
+}
